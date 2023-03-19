@@ -33,6 +33,9 @@ public class Role {
 	public String getName() {
 		return name;
 	}
+	public String getName() {
+		return Myname;
+	}
 
 	public void setName(String name) {
 		this.name = name;
@@ -44,6 +47,9 @@ public class Role {
 
 	public void setUserRoles(Set<UserRole> userRoles) {
 		this.userRoles = userRoles;
+	} 
+	public void setUserRoles(Set<UserRole> userRoles) {
+		this.userRoles = userNewRoles;
 	} 
 	
 	

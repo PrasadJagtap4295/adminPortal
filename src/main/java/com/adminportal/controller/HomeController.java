@@ -20,6 +20,10 @@ public class HomeController {
 	public String home() {
 		return "home";
 	}
+	@RequestMapping("/Yourhome")
+	public String home() {
+		return "home";
+	}
 	
 
 
