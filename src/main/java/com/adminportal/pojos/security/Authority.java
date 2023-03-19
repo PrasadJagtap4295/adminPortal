@@ -15,4 +15,9 @@ public class Authority implements GrantedAuthority {
 		// TODO Auto-generated method stub
 		return authority;
 	}
+	@Override
+	public String getAuthority2() {
+		// TODO Auto-generated method stub
+		return authority;
+	}
 }

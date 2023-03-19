@@ -33,6 +33,9 @@ public class Role {
 	public String getName() {
 		return name;
 	}
+	public String getName() {
+		return Myname;
+	}
 
 	public void setName(String name) {
 		this.name = name;
